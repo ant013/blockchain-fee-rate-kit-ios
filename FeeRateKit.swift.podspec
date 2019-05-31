@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.source = { git: 'https://github.com/horizontalsystems/blockchain-fee-rate-kit-ios.git', tag: "#{spec.version}" }
-  spec.source_files = 'FeeRateKit/FeeRateKit/**/*.{h,m,swift}'
+  spec.source_files = 'FeeRateKit/FeeRateKit/**/*.{h,m,swift, framework}'
   spec.ios.deployment_target = '11.0'
   spec.swift_version = '5'
 

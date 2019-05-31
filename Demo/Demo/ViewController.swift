@@ -9,6 +9,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(feeRateKit.sayHello(name: "Fee Rate User"))
 
         dateFormatter.locale = Locale.current
         dateFormatter.setLocalizedDateFormatFromTemplate("yyyy MMM d, hh:mm:ss")

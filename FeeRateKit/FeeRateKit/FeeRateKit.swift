@@ -1,4 +1,5 @@
 import RxSwift
+import Hello
 
 public class FeeRateKit {
     private let refreshIntervalInMinutes = 3
@@ -57,6 +58,10 @@ extension FeeRateKit {
 
     public func refresh() {
         syncer.sync()
+    }
+    
+    public func sayHello(name: String) -> String {
+        return HelloGreetings(name)
     }
 
 }
